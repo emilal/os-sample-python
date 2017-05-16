@@ -7,7 +7,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    return os.getenv('AYY', "Ayyyy 😎")
+    return os.getenv('AYY', "Ayyyy 😎!!")
 
 
 if __name__ == "__main__":
